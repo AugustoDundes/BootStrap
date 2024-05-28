@@ -4,10 +4,10 @@
 
 <form action="exerc10resp.php" method="post">
     <div class="row">
-        <div class="col">
-            <label for="valor1" class="form-label"> Informe o peso></label>
+        <div class="col-2">
+            <label for="valor1" class="form-label"> Informe sua peso: </label>
             <input type="number" step="0.01" class="form-control" name="valor1" id="valor1">
-            <label for="valor2" class="form-label"> Informe a altura></label>
+            <label for="valor2" class="form-label"> Informe sua altura: </label>
             <input type="number" step="0.01" class="form-control" name="valor2" id="valor2">
         </div>
     </div>
