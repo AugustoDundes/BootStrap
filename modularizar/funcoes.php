@@ -8,10 +8,10 @@
     function positivoNegativo($v){
         if ($v > 0){
             return "Valor positivo";
-        } elseif($v<0){
+        } elseif($v < 0){
             return "Valor Negativo";
         } else{
-            return "Ihual a zero";
+            return "Igual a zero";
         }
     }
 

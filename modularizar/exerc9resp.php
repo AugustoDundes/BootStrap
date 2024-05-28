@@ -12,4 +12,17 @@
 
     echo "idade atual: $idade , dias vividos $dias e sua idade em 2025 é $idade2";
     
-    require_once "rodape.php";
+    
+
+?>
+
+<form action="exerc10.php" method="post">
+    <div class="row">
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Próxima atividade</button>
+        </div>
+    </div>
+</form>
+
+<?php 
+require_once "rodape.php";

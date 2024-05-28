@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-2">
             <label for="valor1" class="form-label"> Informe um valor:</label>
-            <input type="number" class="form-control" name="valo1r" id="valor1">
+            <input type="number" class="form-control" name="valor1" id="valor1">
         </div>
     </div>
     <div class="row">

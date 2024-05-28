@@ -16,4 +16,15 @@
    $valores = menorValor($v1, $v2, $v3, $v4, $v5, $v6, $v7, $v8);
 
     
-    require_once "rodape.php";
+?>
+
+<form action="exerc3.php" method="post">
+    <div class="row">
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Próxima atividade</button>
+        </div>
+    </div>
+</form>
+
+<?php 
+require_once "rodape.php";

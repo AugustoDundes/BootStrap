@@ -8,4 +8,16 @@
 
     echo "O valor em cm é: $resposta";
     
-    require_once "rodape.php";
+
+?>
+
+<form action="exerc8.php" method="post">
+    <div class="row">
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Próxima atividade</button>
+        </div>
+    </div>
+</form>
+
+<?php 
+require_once "rodape.php";
